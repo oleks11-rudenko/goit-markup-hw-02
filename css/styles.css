@@ -73,9 +73,11 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.button-text:hover {
+.button-text:hover,
+.button-text:focus {
   background-color: #404bbf;
 }
 
@@ -85,6 +87,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .features-header {
@@ -102,6 +105,10 @@ ul {
 
 .team-background {
   background-color: #f4f4fd;
+}
+
+.team-list-background {
+  background-color: #ffffff;
 }
 
 .team-header {
@@ -125,6 +132,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfilio-text {
@@ -144,4 +152,10 @@ ul {
 
 .footer-background {
   background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
