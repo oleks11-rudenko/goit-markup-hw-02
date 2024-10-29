@@ -3,3 +3,53 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #2e2f42;
+}
+
+.menu {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.menu:hover,
+.menu:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.contacts {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
